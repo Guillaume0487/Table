@@ -1,0 +1,84 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(./img/BG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #490449;
+    padding: 15px;
+    margin-top: 150px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+#tableau {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(3, 3, 3, 0.5);
+    border: solid 5px #490449;
+    border-radius: 5px;
+    color: #fefefe;
+}
+
+#question {
+    margin: 15px;
+}
+
+#reponse {
+    outline: none;
+    width: 90%;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #490449;
+    color: #fefefe;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    width: 90%;
+    margin-top: 5px;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fefefe;
+    text-shadow: 0 0 10px rgba(0, 0, 0);
+    background-color: rgb(255, 166, 181);
+    font-size: large;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: pink;
+    box-shadow: 0 0 10px pink;
+}
+
+#bravo-faut {
+    font-size: x-large;
+    font-weight: bold;
+    color: #fefefe;
+}
