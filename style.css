@@ -77,8 +77,15 @@ button:hover {
     box-shadow: 0 0 10px pink;
 }
 
+#score {
+    font-size: medium;
+    margin-top: 5px;
+    margin-left: 90%;
+}
+
 #bravo-faut {
     font-size: x-large;
     font-weight: bold;
     color: #fefefe;
+    text-shadow: 0 0 10px #000;
 }
